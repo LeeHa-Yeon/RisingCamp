@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85EBE9C0D3280D7FB4E72C76 /* Pods_RisingCamp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD29E5FEC3BA64931A9F0B6 /* Pods_RisingCamp.framework */; };
+		9F45A09627286F3A008D4D6E /* AwesomeTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */; };
+		9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45A0972728708E008D4D6E /* FirstViewController.swift */; };
+		9F45A09A2728709F008D4D6E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45A0992728709F008D4D6E /* SecondViewController.swift */; };
 		9F86AEDD271EE84300B3A6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */; };
 		9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */; };
 		9F86AEE6271EE84500B3A6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F86AEE5271EE84500B3A6D5 /* Assets.xcassets */; };
@@ -19,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F99EFAF5B3BE57333D9E1F2 /* Pods-RisingCamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp.debug.xcconfig"; path = "Target Support Files/Pods-RisingCamp/Pods-RisingCamp.debug.xcconfig"; sourceTree = "<group>"; };
+		317B51F850B82126D1B04707 /* Pods-RisingCamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp.release.xcconfig"; path = "Target Support Files/Pods-RisingCamp/Pods-RisingCamp.release.xcconfig"; sourceTree = "<group>"; };
+		9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AwesomeTest.storyboard; sourceTree = "<group>"; };
+		9F45A0972728708E008D4D6E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9F45A0992728709F008D4D6E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9F86AED9271EE84300B3A6D5 /* RisingCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RisingCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +39,7 @@
 		9F87922F2722D44A00D8E707 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		9F8792312722D47E00D8E707 /* MyBaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBaeminViewController.swift; sourceTree = "<group>"; };
 		9F8792332722DAE200D8E707 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FDD29E5FEC3BA64931A9F0B6 /* Pods_RisingCamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +47,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EBE9C0D3280D7FB4E72C76 /* Pods_RisingCamp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50CC51386E5A8C4EAE02B8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F99EFAF5B3BE57333D9E1F2 /* Pods-RisingCamp.debug.xcconfig */,
+				317B51F850B82126D1B04707 /* Pods-RisingCamp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5FD478BB22666666AEB0FC79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD29E5FEC3BA64931A9F0B6 /* Pods_RisingCamp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F45A09427282787008D4D6E /* 2주차_스톱워치 */ = {
+			isa = PBXGroup;
+			children = (
+				9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */,
+				9F45A0972728708E008D4D6E /* FirstViewController.swift */,
+				9F45A0992728709F008D4D6E /* SecondViewController.swift */,
+			);
+			name = "2주차_스톱워치";
+			path = "2주차_스톱워치";
+			sourceTree = "<group>";
+		};
 		9F86AED0271EE84300B3A6D5 = {
 			isa = PBXGroup;
 			children = (
 				9F86AEDB271EE84300B3A6D5 /* RisingCamp */,
 				9F86AEDA271EE84300B3A6D5 /* Products */,
+				50CC51386E5A8C4EAE02B8B4 /* Pods */,
+				5FD478BB22666666AEB0FC79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +105,7 @@
 			children = (
 				9F86AEE5271EE84500B3A6D5 /* Assets.xcassets */,
 				9F87922A2722ACEE00D8E707 /* 1주차_배민 */,
+				9F45A09427282787008D4D6E /* 2주차_스톱워치 */,
 				9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */,
 				9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */,
 				9F86AEE7271EE84500B3A6D5 /* LaunchScreen.storyboard */,
@@ -92,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F86AEED271EE84500B3A6D5 /* Build configuration list for PBXNativeTarget "RisingCamp" */;
 			buildPhases = (
+				248E6BADD4040755F5154D30 /* [CP] Check Pods Manifest.lock */,
 				9F86AED5271EE84300B3A6D5 /* Sources */,
 				9F86AED6271EE84300B3A6D5 /* Frameworks */,
 				9F86AED7271EE84300B3A6D5 /* Resources */,
+				88F57151402496CA5AF771C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,23 +191,68 @@
 			files = (
 				9F86AEE9271EE84500B3A6D5 /* LaunchScreen.storyboard in Resources */,
 				9F87922E2722AD7500D8E707 /* Woowahan.storyboard in Resources */,
+				9F45A09627286F3A008D4D6E /* AwesomeTest.storyboard in Resources */,
 				9F86AEE6271EE84500B3A6D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		248E6BADD4040755F5154D30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RisingCamp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88F57151402496CA5AF771C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RisingCamp/Pods-RisingCamp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RisingCamp/Pods-RisingCamp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RisingCamp/Pods-RisingCamp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F86AED5271EE84300B3A6D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F45A09A2728709F008D4D6E /* SecondViewController.swift in Sources */,
 				9F8792322722D47E00D8E707 /* MyBaeminViewController.swift in Sources */,
 				9F86AEDD271EE84300B3A6D5 /* AppDelegate.swift in Sources */,
 				9F87922C2722AD5C00D8E707 /* WoowahanViewController.swift in Sources */,
 				9F8792342722DAE200D8E707 /* MainViewController.swift in Sources */,
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
 				9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */,
+				9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +388,7 @@
 		};
 		9F86AEEE271EE84500B3A6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F99EFAF5B3BE57333D9E1F2 /* Pods-RisingCamp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +408,7 @@
 		};
 		9F86AEEF271EE84500B3A6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317B51F850B82126D1B04707 /* Pods-RisingCamp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
