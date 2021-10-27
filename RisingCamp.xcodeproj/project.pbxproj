@@ -73,7 +73,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9F45A09427282787008D4D6E /* 2주차_스톱워치 */ = {
+		9F45A09427282787008D4D6E /* 2주차_여러프론트 */ = {
 			isa = PBXGroup;
 			children = (
 				9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */,
@@ -81,7 +81,7 @@
 				9F45A0992728709F008D4D6E /* SecondViewController.swift */,
 				9F45A09B27296313008D4D6E /* AlarmViewController.swift */,
 			);
-			name = "2주차_스톱워치";
+			name = "2주차_여러프론트";
 			path = "2주차_스톱워치";
 			sourceTree = "<group>";
 		};
@@ -108,7 +108,7 @@
 			children = (
 				9F86AEE5271EE84500B3A6D5 /* Assets.xcassets */,
 				9F87922A2722ACEE00D8E707 /* 1주차_배민 */,
-				9F45A09427282787008D4D6E /* 2주차_스톱워치 */,
+				9F45A09427282787008D4D6E /* 2주차_여러프론트 */,
 				9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */,
 				9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */,
 				9F86AEE7271EE84500B3A6D5 /* LaunchScreen.storyboard */,
