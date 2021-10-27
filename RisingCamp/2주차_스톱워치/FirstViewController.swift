@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ZigzagViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
