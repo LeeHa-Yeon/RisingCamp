@@ -11,6 +11,7 @@
 		9F45A09627286F3A008D4D6E /* AwesomeTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */; };
 		9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45A0972728708E008D4D6E /* FirstViewController.swift */; };
 		9F45A09A2728709F008D4D6E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45A0992728709F008D4D6E /* SecondViewController.swift */; };
+		9F45A09C27296313008D4D6E /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45A09B27296313008D4D6E /* AlarmViewController.swift */; };
 		9F86AEDD271EE84300B3A6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */; };
 		9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */; };
 		9F86AEE6271EE84500B3A6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F86AEE5271EE84500B3A6D5 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AwesomeTest.storyboard; sourceTree = "<group>"; };
 		9F45A0972728708E008D4D6E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9F45A0992728709F008D4D6E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9F45A09B27296313008D4D6E /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		9F86AED9271EE84300B3A6D5 /* RisingCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RisingCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */,
 				9F45A0972728708E008D4D6E /* FirstViewController.swift */,
 				9F45A0992728709F008D4D6E /* SecondViewController.swift */,
+				9F45A09B27296313008D4D6E /* AlarmViewController.swift */,
 			);
 			name = "2주차_스톱워치";
 			path = "2주차_스톱워치";
@@ -250,6 +253,7 @@
 				9F86AEDD271EE84300B3A6D5 /* AppDelegate.swift in Sources */,
 				9F87922C2722AD5C00D8E707 /* WoowahanViewController.swift in Sources */,
 				9F8792342722DAE200D8E707 /* MainViewController.swift in Sources */,
+				9F45A09C27296313008D4D6E /* AlarmViewController.swift in Sources */,
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
 				9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */,
 				9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */,
