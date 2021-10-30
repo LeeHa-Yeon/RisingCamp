@@ -21,6 +21,12 @@
 		9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87922F2722D44A00D8E707 /* SearchViewController.swift */; };
 		9F8792322722D47E00D8E707 /* MyBaeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8792312722D47E00D8E707 /* MyBaeminViewController.swift */; };
 		9F8792342722DAE200D8E707 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8792332722DAE200D8E707 /* MainViewController.swift */; };
+		9FC38FF6272BCCED00948979 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FF5272BCCED00948979 /* TestViewController.swift */; };
+		9FC38FF8272BCD0300948979 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC38FF7272BCD0300948979 /* Test.storyboard */; };
+		9FC38FFA272BCE9500948979 /* TestSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */; };
+		9FC38FFD272D4EF400948979 /* LifeCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FFC272D4EF400948979 /* LifeCycleViewController.swift */; };
+		9FC38FFF272D4F0100948979 /* LifeCycleSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FFE272D4F0100948979 /* LifeCycleSecondViewController.swift */; };
+		9FC39001272D4F0E00948979 /* LifeCycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC39000272D4F0E00948979 /* LifeCycle.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +47,12 @@
 		9F87922F2722D44A00D8E707 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		9F8792312722D47E00D8E707 /* MyBaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBaeminViewController.swift; sourceTree = "<group>"; };
 		9F8792332722DAE200D8E707 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9FC38FF5272BCCED00948979 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		9FC38FF7272BCD0300948979 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSecondViewController.swift; sourceTree = "<group>"; };
+		9FC38FFC272D4EF400948979 /* LifeCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleViewController.swift; sourceTree = "<group>"; };
+		9FC38FFE272D4F0100948979 /* LifeCycleSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleSecondViewController.swift; sourceTree = "<group>"; };
+		9FC39000272D4F0E00948979 /* LifeCycle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LifeCycle.storyboard; sourceTree = "<group>"; };
 		FDD29E5FEC3BA64931A9F0B6 /* Pods_RisingCamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +121,8 @@
 				9F86AEE5271EE84500B3A6D5 /* Assets.xcassets */,
 				9F87922A2722ACEE00D8E707 /* 1주차_배민 */,
 				9F45A09427282787008D4D6E /* 2주차_여러프론트 */,
+				9FC38FF4272BCCD800948979 /* 3주차_수업 */,
+				9FC38FFB272D4ED200948979 /* 3주차_복습 */,
 				9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */,
 				9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */,
 				9F86AEE7271EE84500B3A6D5 /* LaunchScreen.storyboard */,
@@ -128,6 +142,28 @@
 			);
 			name = "1주차_배민";
 			path = "1주차_배민";
+			sourceTree = "<group>";
+		};
+		9FC38FF4272BCCD800948979 /* 3주차_수업 */ = {
+			isa = PBXGroup;
+			children = (
+				9FC38FF5272BCCED00948979 /* TestViewController.swift */,
+				9FC38FF7272BCD0300948979 /* Test.storyboard */,
+				9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */,
+			);
+			name = "3주차_수업";
+			path = "3주차_수업";
+			sourceTree = "<group>";
+		};
+		9FC38FFB272D4ED200948979 /* 3주차_복습 */ = {
+			isa = PBXGroup;
+			children = (
+				9FC38FFC272D4EF400948979 /* LifeCycleViewController.swift */,
+				9FC38FFE272D4F0100948979 /* LifeCycleSecondViewController.swift */,
+				9FC39000272D4F0E00948979 /* LifeCycle.storyboard */,
+			);
+			name = "3주차_복습";
+			path = "3주차_복습";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +231,9 @@
 				9F86AEE9271EE84500B3A6D5 /* LaunchScreen.storyboard in Resources */,
 				9F87922E2722AD7500D8E707 /* Woowahan.storyboard in Resources */,
 				9F45A09627286F3A008D4D6E /* AwesomeTest.storyboard in Resources */,
+				9FC39001272D4F0E00948979 /* LifeCycle.storyboard in Resources */,
 				9F86AEE6271EE84500B3A6D5 /* Assets.xcassets in Resources */,
+				9FC38FF8272BCD0300948979 /* Test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC38FF6272BCCED00948979 /* TestViewController.swift in Sources */,
+				9FC38FFA272BCE9500948979 /* TestSecondViewController.swift in Sources */,
 				9F45A09A2728709F008D4D6E /* SecondViewController.swift in Sources */,
+				9FC38FFD272D4EF400948979 /* LifeCycleViewController.swift in Sources */,
 				9F8792322722D47E00D8E707 /* MyBaeminViewController.swift in Sources */,
 				9F86AEDD271EE84300B3A6D5 /* AppDelegate.swift in Sources */,
 				9F87922C2722AD5C00D8E707 /* WoowahanViewController.swift in Sources */,
@@ -256,6 +297,7 @@
 				9F45A09C27296313008D4D6E /* AlarmViewController.swift in Sources */,
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
 				9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */,
+				9FC38FFF272D4F0100948979 /* LifeCycleSecondViewController.swift in Sources */,
 				9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
