@@ -51,7 +51,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
         print("sceneDidEnterBackground")
         
-        NotificationCenter.default.post(name: Notification.Name("test"), object: nil)
+        NotificationCenter.default.post(name: Notification.Name("testNoti_name"), object: nil)
     }
 
 

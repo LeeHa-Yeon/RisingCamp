@@ -8,22 +8,17 @@
 import UIKit
 
 class LifeCycleViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // 노티피케이션 -> 파일로 묶어서 관리하면 좋을듯 Notification.Name -> 이게 노티피케이션이름
+        NotificationCenter.default.addObserver(self, selector: #selector(testNoti), name: Notification.Name("testNoti_name"), object: nil)
+    }
+    @objc func testNoti(){
+        label.text = "노티피케이션 테스트 성공"
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+

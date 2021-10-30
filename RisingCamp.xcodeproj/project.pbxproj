@@ -148,8 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				9FC38FF5272BCCED00948979 /* TestViewController.swift */,
-				9FC38FF7272BCD0300948979 /* Test.storyboard */,
 				9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */,
+				9FC38FF7272BCD0300948979 /* Test.storyboard */,
 			);
 			name = "3주차_수업";
 			path = "3주차_수업";
