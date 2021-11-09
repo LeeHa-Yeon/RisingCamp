@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		85EBE9C0D3280D7FB4E72C76 /* Pods_RisingCamp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD29E5FEC3BA64931A9F0B6 /* Pods_RisingCamp.framework */; };
+		9F213B1B2737F08D009F86BC /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F213B1A2737F08D009F86BC /* MemoViewController.swift */; };
+		9F3D813D273A79B8006F268B /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D813C273A79B8006F268B /* Memo.swift */; };
+		9F3D813F273A8260006F268B /* Memo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D813E273A8260006F268B /* Memo.storyboard */; };
 		9F45A09627286F3A008D4D6E /* AwesomeTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */; };
 		9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45A0972728708E008D4D6E /* FirstViewController.swift */; };
 		9F45A09A2728709F008D4D6E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45A0992728709F008D4D6E /* SecondViewController.swift */; };
@@ -32,6 +35,9 @@
 /* Begin PBXFileReference section */
 		1F99EFAF5B3BE57333D9E1F2 /* Pods-RisingCamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp.debug.xcconfig"; path = "Target Support Files/Pods-RisingCamp/Pods-RisingCamp.debug.xcconfig"; sourceTree = "<group>"; };
 		317B51F850B82126D1B04707 /* Pods-RisingCamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp.release.xcconfig"; path = "Target Support Files/Pods-RisingCamp/Pods-RisingCamp.release.xcconfig"; sourceTree = "<group>"; };
+		9F213B1A2737F08D009F86BC /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		9F3D813C273A79B8006F268B /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		9F3D813E273A8260006F268B /* Memo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memo.storyboard; sourceTree = "<group>"; };
 		9F45A09527286F3A008D4D6E /* AwesomeTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AwesomeTest.storyboard; sourceTree = "<group>"; };
 		9F45A0972728708E008D4D6E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9F45A0992728709F008D4D6E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +91,71 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F213B192737F052009F86BC /* 3주차_과제 */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D813B273A7904006F268B /* Controllers */,
+				9F3D813A273A78D6006F268B /* Views */,
+				9F3D8139273A78D0006F268B /* Models */,
+			);
+			name = "3주차_과제";
+			path = "3주차_과제";
+			sourceTree = "<group>";
+		};
+		9F3D8136273A7887006F268B /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */,
+				9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */,
+				9F86AEE7271EE84500B3A6D5 /* LaunchScreen.storyboard */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		9F3D8137273A78B8006F268B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F86AEE5271EE84500B3A6D5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F3D8138273A78C6006F268B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9F87922A2722ACEE00D8E707 /* 1주차_배민 */,
+				9F45A09427282787008D4D6E /* 2주차_여러프론트 */,
+				9FC38FF4272BCCD800948979 /* 3주차_수업 */,
+				9FC38FFB272D4ED200948979 /* 3주차_복습 */,
+				9F213B192737F052009F86BC /* 3주차_과제 */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9F3D8139273A78D0006F268B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D813C273A79B8006F268B /* Memo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F3D813A273A78D6006F268B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D813E273A8260006F268B /* Memo.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F3D813B273A7904006F268B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F213B1A2737F08D009F86BC /* MemoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		9F45A09427282787008D4D6E /* 2주차_여러프론트 */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,15 +189,10 @@
 		9F86AEDB271EE84300B3A6D5 /* RisingCamp */ = {
 			isa = PBXGroup;
 			children = (
-				9F86AEE5271EE84500B3A6D5 /* Assets.xcassets */,
-				9F87922A2722ACEE00D8E707 /* 1주차_배민 */,
-				9F45A09427282787008D4D6E /* 2주차_여러프론트 */,
-				9FC38FF4272BCCD800948979 /* 3주차_수업 */,
-				9FC38FFB272D4ED200948979 /* 3주차_복습 */,
-				9F86AEDC271EE84300B3A6D5 /* AppDelegate.swift */,
-				9F86AEDE271EE84300B3A6D5 /* SceneDelegate.swift */,
-				9F86AEE7271EE84500B3A6D5 /* LaunchScreen.storyboard */,
 				9F86AEEA271EE84500B3A6D5 /* Info.plist */,
+				9F3D8138273A78C6006F268B /* Sources */,
+				9F3D8137273A78B8006F268B /* Resources */,
+				9F3D8136273A7887006F268B /* Applications */,
 			);
 			path = RisingCamp;
 			sourceTree = "<group>";
@@ -229,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F86AEE9271EE84500B3A6D5 /* LaunchScreen.storyboard in Resources */,
+				9F3D813F273A8260006F268B /* Memo.storyboard in Resources */,
 				9F87922E2722AD7500D8E707 /* Woowahan.storyboard in Resources */,
 				9F45A09627286F3A008D4D6E /* AwesomeTest.storyboard in Resources */,
 				9FC39001272D4F0E00948979 /* LifeCycle.storyboard in Resources */,
@@ -290,10 +357,12 @@
 				9FC38FFA272BCE9500948979 /* TestSecondViewController.swift in Sources */,
 				9F45A09A2728709F008D4D6E /* SecondViewController.swift in Sources */,
 				9FC38FFD272D4EF400948979 /* LifeCycleViewController.swift in Sources */,
+				9F213B1B2737F08D009F86BC /* MemoViewController.swift in Sources */,
 				9F8792322722D47E00D8E707 /* MyBaeminViewController.swift in Sources */,
 				9F86AEDD271EE84300B3A6D5 /* AppDelegate.swift in Sources */,
 				9F87922C2722AD5C00D8E707 /* WoowahanViewController.swift in Sources */,
 				9F8792342722DAE200D8E707 /* MainViewController.swift in Sources */,
+				9F3D813D273A79B8006F268B /* Memo.swift in Sources */,
 				9F45A09C27296313008D4D6E /* AlarmViewController.swift in Sources */,
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
 				9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */,
