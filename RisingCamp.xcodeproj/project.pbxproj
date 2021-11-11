@@ -24,6 +24,8 @@
 		9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87922F2722D44A00D8E707 /* SearchViewController.swift */; };
 		9F8792322722D47E00D8E707 /* MyBaeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8792312722D47E00D8E707 /* MyBaeminViewController.swift */; };
 		9F8792342722DAE200D8E707 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8792332722DAE200D8E707 /* MainViewController.swift */; };
+		9FA26B96273C8E3000D293AE /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA26B95273C8E3000D293AE /* AddMemoViewController.swift */; };
+		9FA26B98273CA12000D293AE /* DetailMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA26B97273CA12000D293AE /* DetailMemoViewController.swift */; };
 		9FC38FF6272BCCED00948979 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FF5272BCCED00948979 /* TestViewController.swift */; };
 		9FC38FF8272BCD0300948979 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC38FF7272BCD0300948979 /* Test.storyboard */; };
 		9FC38FFA272BCE9500948979 /* TestSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */; };
@@ -53,6 +55,9 @@
 		9F87922F2722D44A00D8E707 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		9F8792312722D47E00D8E707 /* MyBaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBaeminViewController.swift; sourceTree = "<group>"; };
 		9F8792332722DAE200D8E707 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9FA26B95273C8E3000D293AE /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
+		9FA26B97273CA12000D293AE /* DetailMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMemoViewController.swift; sourceTree = "<group>"; };
+		9FA26B9A273CA6E000D293AE /* Dongle-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dongle-Light.ttf"; path = "../../../../../../Downloads/Dongle-Light.ttf"; sourceTree = "<group>"; };
 		9FC38FF5272BCCED00948979 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		9FC38FF7272BCD0300948979 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSecondViewController.swift; sourceTree = "<group>"; };
@@ -94,9 +99,9 @@
 		9F213B192737F052009F86BC /* 3주차_과제 */ = {
 			isa = PBXGroup;
 			children = (
-				9F3D813B273A7904006F268B /* Controllers */,
-				9F3D813A273A78D6006F268B /* Views */,
 				9F3D8139273A78D0006F268B /* Models */,
+				9F3D813A273A78D6006F268B /* Views */,
+				9F3D813B273A7904006F268B /* Controllers */,
 			);
 			name = "3주차_과제";
 			path = "3주차_과제";
@@ -115,6 +120,7 @@
 		9F3D8137273A78B8006F268B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9FA26B99273CA6AC00D293AE /* Font */,
 				9F86AEE5271EE84500B3A6D5 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -152,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				9F213B1A2737F08D009F86BC /* MemoViewController.swift */,
+				9FA26B95273C8E3000D293AE /* AddMemoViewController.swift */,
+				9FA26B97273CA12000D293AE /* DetailMemoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -208,6 +216,14 @@
 			);
 			name = "1주차_배민";
 			path = "1주차_배민";
+			sourceTree = "<group>";
+		};
+		9FA26B99273CA6AC00D293AE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9FA26B9A273CA6E000D293AE /* Dongle-Light.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		9FC38FF4272BCCD800948979 /* 3주차_수업 */ = {
@@ -361,10 +377,12 @@
 				9F8792322722D47E00D8E707 /* MyBaeminViewController.swift in Sources */,
 				9F86AEDD271EE84300B3A6D5 /* AppDelegate.swift in Sources */,
 				9F87922C2722AD5C00D8E707 /* WoowahanViewController.swift in Sources */,
+				9FA26B98273CA12000D293AE /* DetailMemoViewController.swift in Sources */,
 				9F8792342722DAE200D8E707 /* MainViewController.swift in Sources */,
 				9F3D813D273A79B8006F268B /* Memo.swift in Sources */,
 				9F45A09C27296313008D4D6E /* AlarmViewController.swift in Sources */,
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
+				9FA26B96273C8E3000D293AE /* AddMemoViewController.swift in Sources */,
 				9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */,
 				9FC38FFF272D4F0100948979 /* LifeCycleSecondViewController.swift in Sources */,
 				9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */,
