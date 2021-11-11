@@ -13,17 +13,16 @@ class AddMemoViewController: UIViewController {
     
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var contentTextView: UITextView!
-    @IBOutlet weak var contentView: UIView!
-    @IBOutlet weak var contentView2: UIScrollView!
+    @IBOutlet weak var contentView: UIScrollView!
     
     @IBAction func saveTapButton(_ sender: Any){
         var newMemo = memoManager.createAddMemo()
         if titleTextField.text == "" {
             newMemo.title = "제목없음"
         }else{
-            newMemo.title = titleTextField.text ?? "제목없음"
+            newMemo.title = titleTextField.text!
         }
-        newMemo.content = contentTextView.text ?? ""
+        newMemo.content = contentTextView.text!
         memoManager.addNewMemo(newMemo)
         self.dismiss(animated: true, completion: nil)
     }
@@ -34,9 +33,7 @@ class AddMemoViewController: UIViewController {
     }
     
     func setupLayout(){
-        
-//        navigationController?.navigationBar.prefersLargeTitles = false
-        contentView2.layer.cornerRadius = 10
+        contentView.layer.cornerRadius = 10
     }
     
 }
