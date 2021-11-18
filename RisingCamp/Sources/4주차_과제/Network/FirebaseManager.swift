@@ -22,6 +22,30 @@ class FirebaseManager {
         newIng.setValue(indredientList)
     }
     
+    //MARK: - Refrigerator 불러오기
+    func loadRefrigerator(completion: @escaping ([Ingredient]) -> (Void)) {
+        self.db.child("Refrigerator").observeSingleEvent(of: .value) { snapshot in
+            if !snapshot.hasChildren() {
+                print("don't have Refrigerator")
+                return
+            }
+            
+            guard let snapData = snapshot.value as? [String:Any] else {return}
+            let jsonData = try! JSONSerialization.data(withJSONObject: Array(snapData.values), options: [])
+            
+            do {
+                let decoder = JSONDecoder()
+                let ingredientList = try decoder.decode([Ingredient].self, from: jsonData)
+            
+                completion(ingredientList)
+                
+            }catch let error {
+                print("error --> \(error.localizedDescription)")
+            }
+            
+        }
+    }
+    
     
     //MARK: - 재료의 소비기간 불러오기
     
@@ -40,5 +64,5 @@ class FirebaseManager {
         }
         
     }
-
+    
 }

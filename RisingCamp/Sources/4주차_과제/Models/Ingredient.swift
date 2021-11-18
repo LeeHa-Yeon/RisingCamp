@@ -7,7 +7,36 @@
 
 import Foundation
 
-class Ingredient {
+struct Ingredient: Codable {
+    
+    let name: String
+    let type: String
+    let storage: String
+    let cnt: Int
+    let shelfLife: String
+    let expiryDate: String
+    
+}
+
+class Refrigerator {
+    static let shared = Refrigerator()
+    
+    private init(){}
+    
+    var ingredientInfo: [Ingredient]?
+    
+    func setIngredientInfo(_ info: [Ingredient]){
+        self.ingredientInfo = info
+    }
+    
+    func getIngredient() -> [Ingredient]? {
+        guard let ingredientInfo = self.ingredientInfo else { return nil }
+        
+        return ingredientInfo
+    }
+    
+    
+    
     
     
 }

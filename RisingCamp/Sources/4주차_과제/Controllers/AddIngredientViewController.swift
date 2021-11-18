@@ -41,41 +41,41 @@ class AddIngredientViewController: UIViewController {
             print("nameTextField blank")
             return
         }
-        indredientArr["Name"] = ingredientName
+        indredientArr["name"] = ingredientName
         
         guard let ingredientType: String = typeTextField.text else {
             print("typeTextField blank")
             return
         }
-        indredientArr["Type"] = ingredientType
+        indredientArr["type"] = ingredientType
         
         guard let ingredientStorage: String = storageTextField.text else {
             print("storageTextField blank")
             return
         }
-        indredientArr["Storage"] = ingredientStorage
+        indredientArr["storage"] = ingredientStorage
         
         guard let ingredientCnt: String = cntLb.text else {
             print("cntLb blank")
             return
         }
-        indredientArr["Cnt"] = Int(ingredientCnt)
+        indredientArr["cnt"] = Int(ingredientCnt)
         
         guard let ingredientShelf: String = shelfLifeTextField.text else {
             print("shelfLifeTextField blank")
             return
         }
-        indredientArr["Date"] = ingredientShelf
+        indredientArr["shelfLife"] = ingredientShelf
         
-        print("--->\(indredientArr)")
-        firebase.loadExpiryDate(IngName: indredientArr["Name"] as! String) { response in
+        //MARK: - 새 재료를 파이어베이스에 등록
+        firebase.loadExpiryDate(IngName: indredientArr["name"] as! String) { response in
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "yyyy-MM-dd"
             var loadTimeInterval: Double
             loadTimeInterval = Double(response*60*60*24)
             let date = Date(timeInterval: loadTimeInterval, since: self.selectDate)
-            indredientArr["소비기간"] = dateFormatter.string(from:date)
-            self.firebase.saveIngredient(IngName: indredientArr["Name"] as! String, indredientList: indredientArr)
+            indredientArr["expiryDate"] = dateFormatter.string(from:date)
+            self.firebase.saveIngredient(IngName: indredientArr["name"] as! String, indredientList: indredientArr)
             
             self.dismiss(animated: true, completion: nil)
         }
@@ -148,54 +148,4 @@ class AddIngredientViewController: UIViewController {
         self.shelfLifeTextField.text = dateFormatter.string(from: datePicker.date)
         self.view.endEditing(true)
     }
-}
-
-
-extension AddIngredientViewController: UIPickerViewDelegate, UIPickerViewDataSource {
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        
-        if pickerView == typePickerView {
-            return typeList.count
-        }
-        else if pickerView == storagePickerView {
-            return storageList.count
-        }else {
-            print("PickerView numberOfRowsInComponent error")
-            return 0
-        }
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        
-        if pickerView == typePickerView {
-            return typeList[row]
-        }
-        else if pickerView == storagePickerView {
-            return storageList[row]
-        }else {
-            print("PickerView titleForRow error")
-            return ""
-        }
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
-        if pickerView == typePickerView {
-            typeTextField.text = typeList[row]
-            typeTextField.resignFirstResponder()
-        }
-        else if pickerView == storagePickerView {
-            storageTextField.text = storageList[row]
-            storageTextField.resignFirstResponder()
-        }else {
-            print("pickerView didSelectRow 실패")
-        }
-        
-    }
-    
-    
 }

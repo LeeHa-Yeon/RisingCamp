@@ -9,7 +9,7 @@ import UIKit
 import EASegments
 
 class ExpiryDateViewController: UIViewController, EASegmentsDelegate {
-
+    
     @IBOutlet weak var segmentsViaIB: EASegments!
     let carmine =  #colorLiteral(red: 0.2004446089, green: 0.2323476076, blue: 0.4184677899, alpha: 1)
     let flamingo = #colorLiteral(red: 0.495657444, green: 0.7202214599, blue: 0.9071255922, alpha: 1)
@@ -20,6 +20,12 @@ class ExpiryDateViewController: UIViewController, EASegmentsDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSegment()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        imminentView.alpha = 1
+        expiredView.alpha = 0
     }
     
     func setupSegment(){
@@ -35,12 +41,6 @@ class ExpiryDateViewController: UIViewController, EASegmentsDelegate {
         segmentsViaIB.delegate = self
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        imminentView.alpha = 1
-        expiredView.alpha = 0
-    }
-    
     // addTarget
     @objc
     @IBAction func segmentsValueDidChange(_ sender: EASegments) {
@@ -49,32 +49,32 @@ class ExpiryDateViewController: UIViewController, EASegmentsDelegate {
     
     // EASegmentsDelegate
     func segments(_ segments: EASegments, didSelectAt index: Int) {
-//        let storyboard = UIStoryboard(name:"Main",bundle: nil)
+        let storyboard = UIStoryboard(name:"Refrigerator",bundle: nil)
         if segments.selectedIndex == 0 {
             imminentView.alpha = 1
             expiredView.alpha = 0
             
-//            if let DayVC = storyboard.instantiateViewController(identifier: "DaySB") as? DayViewController {
-//                addChild(DayVC)
-//                dayView.addSubview(DayVC.view)
-//                DayVC.didMove(toParent: self)
-//            }
+            if let ImminentVC = storyboard.instantiateViewController(identifier: "ImminentSB") as? ImminentViewController {
+                addChild(ImminentVC)
+                imminentView.addSubview(ImminentVC.view)
+                ImminentVC.didMove(toParent: self)
+            }
         }else{
             imminentView.alpha = 0
             expiredView.alpha = 1
-//            if let Map2VC = storyboard.instantiateViewController(identifier: "Map2SB") as? Map2ViewController {
-//                addChild(Map2VC)
-//                map2View.addSubview(Map2VC.view)
-//                Map2VC.didMove(toParent: self)
-//            }
+            if let ExpirationVC = storyboard.instantiateViewController(identifier: "ExpirationSB") as? ExpirationViewController {
+                addChild(ExpirationVC)
+                expiredView.addSubview(ExpirationVC.view)
+                ExpirationVC.didMove(toParent: self)
+            }
         }
-        print("didSelectAt: \(segments.selectedIndex) [\(segments.selectedTitle ?? "nil")]")
     }
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
