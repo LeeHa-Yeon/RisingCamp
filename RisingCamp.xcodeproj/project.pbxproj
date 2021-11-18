@@ -17,6 +17,12 @@
 		9F45A09C27296313008D4D6E /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45A09B27296313008D4D6E /* AlarmViewController.swift */; };
 		9F80A18A2744E82600B35510 /* Refrigerator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F80A1892744E82600B35510 /* Refrigerator.storyboard */; };
 		9F80A18C2744E84400B35510 /* RefrigeratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80A18B2744E84400B35510 /* RefrigeratorViewController.swift */; };
+		9F80FDA0274511560018928D /* ExpiryDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80FD9F274511560018928D /* ExpiryDateViewController.swift */; };
+		9F80FDA22745F00A0018928D /* ShoppingBasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80FDA12745F00A0018928D /* ShoppingBasketViewController.swift */; };
+		9F80FDA42745F0480018928D /* AddIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80FDA32745F0480018928D /* AddIngredientViewController.swift */; };
+		9F80FDA62745F1700018928D /* ExpirationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80FDA52745F1700018928D /* ExpirationViewController.swift */; };
+		9F80FDA82745F1950018928D /* ImminentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80FDA72745F1950018928D /* ImminentViewController.swift */; };
+		9F80FDAA2745F34E0018928D /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80FDA92745F34E0018928D /* Ingredient.swift */; };
 		9F82B901273E3D3C00C00C60 /* RcTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82B900273E3D3C00C00C60 /* RcTestViewController.swift */; };
 		9F82B903273E3D4600C00C60 /* RCTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F82B902273E3D4600C00C60 /* RCTest.storyboard */; };
 		9F82B905273E3F9100C00C60 /* RcTestSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82B904273E3F9100C00C60 /* RcTestSecondViewController.swift */; };
@@ -43,6 +49,8 @@
 		9FC38FFD272D4EF400948979 /* LifeCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FFC272D4EF400948979 /* LifeCycleViewController.swift */; };
 		9FC38FFF272D4F0100948979 /* LifeCycleSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FFE272D4F0100948979 /* LifeCycleSecondViewController.swift */; };
 		9FC39001272D4F0E00948979 /* LifeCycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC39000272D4F0E00948979 /* LifeCycle.storyboard */; };
+		9FF3F46327460998009FFE4C /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F46227460998009FFE4C /* FirebaseManager.swift */; };
+		9FF3F46527461195009FFE4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FF3F46427461195009FFE4C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +65,12 @@
 		9F45A09B27296313008D4D6E /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		9F80A1892744E82600B35510 /* Refrigerator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Refrigerator.storyboard; sourceTree = "<group>"; };
 		9F80A18B2744E84400B35510 /* RefrigeratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrigeratorViewController.swift; sourceTree = "<group>"; };
+		9F80FD9F274511560018928D /* ExpiryDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiryDateViewController.swift; sourceTree = "<group>"; };
+		9F80FDA12745F00A0018928D /* ShoppingBasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBasketViewController.swift; sourceTree = "<group>"; };
+		9F80FDA32745F0480018928D /* AddIngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientViewController.swift; sourceTree = "<group>"; };
+		9F80FDA52745F1700018928D /* ExpirationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirationViewController.swift; sourceTree = "<group>"; };
+		9F80FDA72745F1950018928D /* ImminentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImminentViewController.swift; sourceTree = "<group>"; };
+		9F80FDA92745F34E0018928D /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		9F82B900273E3D3C00C00C60 /* RcTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RcTestViewController.swift; sourceTree = "<group>"; };
 		9F82B902273E3D4600C00C60 /* RCTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RCTest.storyboard; sourceTree = "<group>"; };
 		9F82B904273E3F9100C00C60 /* RcTestSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RcTestSecondViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +100,8 @@
 		9FC38FFC272D4EF400948979 /* LifeCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleViewController.swift; sourceTree = "<group>"; };
 		9FC38FFE272D4F0100948979 /* LifeCycleSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleSecondViewController.swift; sourceTree = "<group>"; };
 		9FC39000272D4F0E00948979 /* LifeCycle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LifeCycle.storyboard; sourceTree = "<group>"; };
+		9FF3F46227460998009FFE4C /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		9FF3F46427461195009FFE4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDD29E5FEC3BA64931A9F0B6 /* Pods_RisingCamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -203,6 +219,7 @@
 		9F80A1852744E6D100B35510 /* 4주차_과제 */ = {
 			isa = PBXGroup;
 			children = (
+				9FF3F4612746098A009FFE4C /* Network */,
 				9F80A18E2744E86700B35510 /* Cell */,
 				9F80A18D2744E85200B35510 /* Extension */,
 				9F80A1882744E70500B35510 /* Controllers */,
@@ -216,6 +233,7 @@
 		9F80A1862744E6EC00B35510 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F80FDA92745F34E0018928D /* Ingredient.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -232,6 +250,11 @@
 			isa = PBXGroup;
 			children = (
 				9F80A18B2744E84400B35510 /* RefrigeratorViewController.swift */,
+				9F80FD9F274511560018928D /* ExpiryDateViewController.swift */,
+				9F80FDA12745F00A0018928D /* ShoppingBasketViewController.swift */,
+				9F80FDA32745F0480018928D /* AddIngredientViewController.swift */,
+				9F80FDA52745F1700018928D /* ExpirationViewController.swift */,
+				9F80FDA72745F1950018928D /* ImminentViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -313,6 +336,7 @@
 			isa = PBXGroup;
 			children = (
 				9F86AEEA271EE84500B3A6D5 /* Info.plist */,
+				9FF3F46427461195009FFE4C /* GoogleService-Info.plist */,
 				9F3D8138273A78C6006F268B /* Sources */,
 				9F3D8137273A78B8006F268B /* Resources */,
 				9F3D8136273A7887006F268B /* Applications */,
@@ -361,6 +385,14 @@
 			);
 			name = "3주차_복습";
 			path = "3주차_복습";
+			sourceTree = "<group>";
+		};
+		9FF3F4612746098A009FFE4C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9FF3F46227460998009FFE4C /* FirebaseManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,6 +464,7 @@
 				9FC39001272D4F0E00948979 /* LifeCycle.storyboard in Resources */,
 				9F86AEE6271EE84500B3A6D5 /* Assets.xcassets in Resources */,
 				9F82B903273E3D4600C00C60 /* RCTest.storyboard in Resources */,
+				9FF3F46527461195009FFE4C /* GoogleService-Info.plist in Resources */,
 				9F80A18A2744E82600B35510 /* Refrigerator.storyboard in Resources */,
 				9FC38FF8272BCD0300948979 /* Test.storyboard in Resources */,
 			);
@@ -486,6 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F80FDA42745F0480018928D /* AddIngredientViewController.swift in Sources */,
 				9FC38FF6272BCCED00948979 /* TestViewController.swift in Sources */,
 				9FC38FFA272BCE9500948979 /* TestSecondViewController.swift in Sources */,
 				9F45A09A2728709F008D4D6E /* SecondViewController.swift in Sources */,
@@ -500,17 +534,23 @@
 				9F82B90B273E44F700C00C60 /* NameList.swift in Sources */,
 				9F80A18C2744E84400B35510 /* RefrigeratorViewController.swift in Sources */,
 				9F82B912273E4E0000C00C60 /* RcTestViewController + TableView.swift in Sources */,
+				9FF3F46327460998009FFE4C /* FirebaseManager.swift in Sources */,
 				9FA26B98273CA12000D293AE /* DetailMemoViewController.swift in Sources */,
 				9F8792342722DAE200D8E707 /* MainViewController.swift in Sources */,
 				9F3D813D273A79B8006F268B /* Memo.swift in Sources */,
 				9F45A09C27296313008D4D6E /* AlarmViewController.swift in Sources */,
+				9F80FDA62745F1700018928D /* ExpirationViewController.swift in Sources */,
+				9F80FDAA2745F34E0018928D /* Ingredient.swift in Sources */,
+				9F80FDA0274511560018928D /* ExpiryDateViewController.swift in Sources */,
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
 				9FA26B96273C8E3000D293AE /* AddMemoViewController.swift in Sources */,
 				9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */,
+				9F80FDA22745F00A0018928D /* ShoppingBasketViewController.swift in Sources */,
 				9FC38FFF272D4F0100948979 /* LifeCycleSecondViewController.swift in Sources */,
 				9F82B901273E3D3C00C00C60 /* RcTestViewController.swift in Sources */,
 				9F82B905273E3F9100C00C60 /* RcTestSecondViewController.swift in Sources */,
 				9F82B908273E438D00C00C60 /* NameCell.swift in Sources */,
+				9F80FDA82745F1950018928D /* ImminentViewController.swift in Sources */,
 				9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

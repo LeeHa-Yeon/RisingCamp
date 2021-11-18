@@ -8,10 +8,11 @@
 import UIKit
 
 class RefrigeratorViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
     
 }
