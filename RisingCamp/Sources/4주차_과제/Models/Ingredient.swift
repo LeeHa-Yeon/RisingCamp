@@ -35,8 +35,5 @@ class Refrigerator {
         return ingredientInfo
     }
     
-    
-    
-    
-    
+
 }

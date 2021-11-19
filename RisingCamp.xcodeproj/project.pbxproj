@@ -59,6 +59,10 @@
 		9FF3F47127468AD5009FFE4C /* ImminentViewController + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F47027468AD5009FFE4C /* ImminentViewController + TableView.swift */; };
 		9FF3F47327468AE7009FFE4C /* ExpirationViewController + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F47227468AE7009FFE4C /* ExpirationViewController + TableView.swift */; };
 		9FF3F4752746924D009FFE4C /* Date + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F4742746924D009FFE4C /* Date + extension.swift */; };
+		9FF3F4772746A6B4009FFE4C /* BasketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F4762746A6B4009FFE4C /* BasketCell.swift */; };
+		9FF3F4792746A6E9009FFE4C /* ShoppingBasketViewController + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F4782746A6E9009FFE4C /* ShoppingBasketViewController + CollectionView.swift */; };
+		9FF3F47B2746D02C009FFE4C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F47A2746D02C009FFE4C /* DetailViewController.swift */; };
+		9FF3F47D27474025009FFE4C /* DetailViewController + PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F47C27474025009FFE4C /* DetailViewController + PickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +122,10 @@
 		9FF3F47027468AD5009FFE4C /* ImminentViewController + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImminentViewController + TableView.swift"; sourceTree = "<group>"; };
 		9FF3F47227468AE7009FFE4C /* ExpirationViewController + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpirationViewController + TableView.swift"; sourceTree = "<group>"; };
 		9FF3F4742746924D009FFE4C /* Date + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + extension.swift"; sourceTree = "<group>"; };
+		9FF3F4762746A6B4009FFE4C /* BasketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketCell.swift; sourceTree = "<group>"; };
+		9FF3F4782746A6E9009FFE4C /* ShoppingBasketViewController + CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingBasketViewController + CollectionView.swift"; sourceTree = "<group>"; };
+		9FF3F47A2746D02C009FFE4C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9FF3F47C27474025009FFE4C /* DetailViewController + PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController + PickView.swift"; sourceTree = "<group>"; };
 		FDD29E5FEC3BA64931A9F0B6 /* Pods_RisingCamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -267,6 +275,7 @@
 			children = (
 				9F80FDA12745F00A0018928D /* ShoppingBasketViewController.swift */,
 				9F80A18B2744E84400B35510 /* RefrigeratorViewController.swift */,
+				9FF3F47A2746D02C009FFE4C /* DetailViewController.swift */,
 				9F80FDA32745F0480018928D /* AddIngredientViewController.swift */,
 				9F80FD9F274511560018928D /* ExpiryDateViewController.swift */,
 				9F80FDA72745F1950018928D /* ImminentViewController.swift */,
@@ -283,6 +292,8 @@
 				9FF3F47027468AD5009FFE4C /* ImminentViewController + TableView.swift */,
 				9FF3F47227468AE7009FFE4C /* ExpirationViewController + TableView.swift */,
 				9FF3F4742746924D009FFE4C /* Date + extension.swift */,
+				9FF3F4782746A6E9009FFE4C /* ShoppingBasketViewController + CollectionView.swift */,
+				9FF3F47C27474025009FFE4C /* DetailViewController + PickView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -291,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				9FF3F466274665FF009FFE4C /* RefrigeratorCell.swift */,
+				9FF3F4762746A6B4009FFE4C /* BasketCell.swift */,
 				9FF3F46C2746857C009FFE4C /* ExpiryDateTableViewCell.swift */,
 				9FF3F46D2746857C009FFE4C /* ExpiryDateTableViewCell.xib */,
 			);
@@ -569,11 +581,13 @@
 				9F45A09C27296313008D4D6E /* AlarmViewController.swift in Sources */,
 				9F80FDA62745F1700018928D /* ExpirationViewController.swift in Sources */,
 				9F80FDAA2745F34E0018928D /* Ingredient.swift in Sources */,
+				9FF3F47B2746D02C009FFE4C /* DetailViewController.swift in Sources */,
 				9FF3F47127468AD5009FFE4C /* ImminentViewController + TableView.swift in Sources */,
 				9F80FDA0274511560018928D /* ExpiryDateViewController.swift in Sources */,
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
 				9FA26B96273C8E3000D293AE /* AddMemoViewController.swift in Sources */,
 				9FF3F46927466629009FFE4C /* RefrigeratorViewController + TableView.swift in Sources */,
+				9FF3F4772746A6B4009FFE4C /* BasketCell.swift in Sources */,
 				9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */,
 				9F80FDA22745F00A0018928D /* ShoppingBasketViewController.swift in Sources */,
 				9FC38FFF272D4F0100948979 /* LifeCycleSecondViewController.swift in Sources */,
@@ -584,6 +598,8 @@
 				9FF3F46B27467E32009FFE4C /* AddIngredientViewController + PickView.swift in Sources */,
 				9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */,
 				9FF3F467274665FF009FFE4C /* RefrigeratorCell.swift in Sources */,
+				9FF3F4792746A6E9009FFE4C /* ShoppingBasketViewController + CollectionView.swift in Sources */,
+				9FF3F47D27474025009FFE4C /* DetailViewController + PickView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

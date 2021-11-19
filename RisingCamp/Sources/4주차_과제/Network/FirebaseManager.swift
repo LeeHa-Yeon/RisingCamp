@@ -65,4 +65,27 @@ class FirebaseManager {
         
     }
     
+    //MARK: - 재료 등록
+    func saveShoppingCart(shoppingList: [String]){
+        let cartPath = db.child("Cart")
+        cartPath.setValue(shoppingList)
+    }
+    
+    func loadShoppingCart(completion: @escaping ([String])->(Void)) {
+        self.db.child("Cart").observeSingleEvent(of: .value) { snapshot in
+            if !snapshot.hasChildren() {
+                print("don't have Cart")
+                return
+            }
+            
+            let dic = snapshot.value as! [String]
+            completion(dic)
+        }
+    }
+    
+    func deleteIngreient(key: String){
+        let ref = self.db.child("Refrigerator").child(key)
+        ref.removeValue()
+    }
+    
 }
