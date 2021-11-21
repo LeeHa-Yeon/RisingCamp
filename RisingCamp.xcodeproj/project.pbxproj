@@ -41,6 +41,8 @@
 		9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87922F2722D44A00D8E707 /* SearchViewController.swift */; };
 		9F8792322722D47E00D8E707 /* MyBaeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8792312722D47E00D8E707 /* MyBaeminViewController.swift */; };
 		9F8792342722DAE200D8E707 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8792332722DAE200D8E707 /* MainViewController.swift */; };
+		9F8BB265274A4C3900B3007E /* SwitchCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BB264274A4C3900B3007E /* SwitchCellViewController.swift */; };
+		9F8BB267274A4D1600B3007E /* SwitchSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BB266274A4D1600B3007E /* SwitchSB.storyboard */; };
 		9FA26B96273C8E3000D293AE /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA26B95273C8E3000D293AE /* AddMemoViewController.swift */; };
 		9FA26B98273CA12000D293AE /* DetailMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA26B97273CA12000D293AE /* DetailMemoViewController.swift */; };
 		9FC38FF6272BCCED00948979 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FF5272BCCED00948979 /* TestViewController.swift */; };
@@ -63,6 +65,7 @@
 		9FF3F4792746A6E9009FFE4C /* ShoppingBasketViewController + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F4782746A6E9009FFE4C /* ShoppingBasketViewController + CollectionView.swift */; };
 		9FF3F47B2746D02C009FFE4C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F47A2746D02C009FFE4C /* DetailViewController.swift */; };
 		9FF3F47D27474025009FFE4C /* DetailViewController + PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F47C27474025009FFE4C /* DetailViewController + PickView.swift */; };
+		9FF3F47F274785E4009FFE4C /* AddCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3F47E274785E4009FFE4C /* AddCartCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +106,8 @@
 		9F87922F2722D44A00D8E707 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		9F8792312722D47E00D8E707 /* MyBaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBaeminViewController.swift; sourceTree = "<group>"; };
 		9F8792332722DAE200D8E707 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9F8BB264274A4C3900B3007E /* SwitchCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCellViewController.swift; sourceTree = "<group>"; };
+		9F8BB266274A4D1600B3007E /* SwitchSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwitchSB.storyboard; sourceTree = "<group>"; };
 		9FA26B95273C8E3000D293AE /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
 		9FA26B97273CA12000D293AE /* DetailMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMemoViewController.swift; sourceTree = "<group>"; };
 		9FA26B9A273CA6E000D293AE /* Dongle-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dongle-Light.ttf"; path = "../../../../../../Downloads/Dongle-Light.ttf"; sourceTree = "<group>"; };
@@ -126,6 +131,7 @@
 		9FF3F4782746A6E9009FFE4C /* ShoppingBasketViewController + CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingBasketViewController + CollectionView.swift"; sourceTree = "<group>"; };
 		9FF3F47A2746D02C009FFE4C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9FF3F47C27474025009FFE4C /* DetailViewController + PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController + PickView.swift"; sourceTree = "<group>"; };
+		9FF3F47E274785E4009FFE4C /* AddCartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCartCell.swift; sourceTree = "<group>"; };
 		FDD29E5FEC3BA64931A9F0B6 /* Pods_RisingCamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -191,7 +197,8 @@
 		9F3D8138273A78C6006F268B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9F80A1852744E6D100B35510 /* 4주차_과제 */,
+				9F8BB263274A4BEC00B3007E /* 셀_재사용성_해결 */,
+				9F80A1852744E6D100B35510 /* 4주차_나의냉장고 */,
 				9F87922A2722ACEE00D8E707 /* 1주차_배민 */,
 				9F45A09427282787008D4D6E /* 2주차_여러프론트 */,
 				9FC38FF4272BCCD800948979 /* 3주차_수업 */,
@@ -240,7 +247,7 @@
 			path = "2주차_스톱워치";
 			sourceTree = "<group>";
 		};
-		9F80A1852744E6D100B35510 /* 4주차_과제 */ = {
+		9F80A1852744E6D100B35510 /* 4주차_나의냉장고 */ = {
 			isa = PBXGroup;
 			children = (
 				9FF3F4612746098A009FFE4C /* Network */,
@@ -250,7 +257,7 @@
 				9F80A1872744E6F800B35510 /* Views */,
 				9F80A1862744E6EC00B35510 /* Models */,
 			);
-			name = "4주차_과제";
+			name = "4주차_나의냉장고";
 			path = "4주차_과제";
 			sourceTree = "<group>";
 		};
@@ -305,6 +312,7 @@
 				9FF3F4762746A6B4009FFE4C /* BasketCell.swift */,
 				9FF3F46C2746857C009FFE4C /* ExpiryDateTableViewCell.swift */,
 				9FF3F46D2746857C009FFE4C /* ExpiryDateTableViewCell.xib */,
+				9FF3F47E274785E4009FFE4C /* AddCartCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -391,6 +399,16 @@
 			);
 			name = "1주차_배민";
 			path = "1주차_배민";
+			sourceTree = "<group>";
+		};
+		9F8BB263274A4BEC00B3007E /* 셀_재사용성_해결 */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BB264274A4C3900B3007E /* SwitchCellViewController.swift */,
+				9F8BB266274A4D1600B3007E /* SwitchSB.storyboard */,
+			);
+			name = "셀_재사용성_해결";
+			path = "셀재사용성_해결";
 			sourceTree = "<group>";
 		};
 		9FA26B99273CA6AC00D293AE /* Font */ = {
@@ -502,6 +520,7 @@
 				9F86AEE6271EE84500B3A6D5 /* Assets.xcassets in Resources */,
 				9F82B903273E3D4600C00C60 /* RCTest.storyboard in Resources */,
 				9FF3F46527461195009FFE4C /* GoogleService-Info.plist in Resources */,
+				9F8BB267274A4D1600B3007E /* SwitchSB.storyboard in Resources */,
 				9F80A18A2744E82600B35510 /* Refrigerator.storyboard in Resources */,
 				9FC38FF8272BCD0300948979 /* Test.storyboard in Resources */,
 			);
@@ -534,7 +553,7 @@
 		};
 		88F57151402496CA5AF771C9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -566,6 +585,7 @@
 				9F8792322722D47E00D8E707 /* MyBaeminViewController.swift in Sources */,
 				9F82B90D273E4A8A00C00C60 /* RcTestFirstViewController.swift in Sources */,
 				9F86AEDD271EE84300B3A6D5 /* AppDelegate.swift in Sources */,
+				9F8BB265274A4C3900B3007E /* SwitchCellViewController.swift in Sources */,
 				9F87922C2722AD5C00D8E707 /* WoowahanViewController.swift in Sources */,
 				9FF3F47327468AE7009FFE4C /* ExpirationViewController + TableView.swift in Sources */,
 				9F82B914273E511400C00C60 /* SegueActionViewController.swift in Sources */,
@@ -584,6 +604,7 @@
 				9FF3F47B2746D02C009FFE4C /* DetailViewController.swift in Sources */,
 				9FF3F47127468AD5009FFE4C /* ImminentViewController + TableView.swift in Sources */,
 				9F80FDA0274511560018928D /* ExpiryDateViewController.swift in Sources */,
+				9FF3F47F274785E4009FFE4C /* AddCartCell.swift in Sources */,
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
 				9FA26B96273C8E3000D293AE /* AddMemoViewController.swift in Sources */,
 				9FF3F46927466629009FFE4C /* RefrigeratorViewController + TableView.swift in Sources */,

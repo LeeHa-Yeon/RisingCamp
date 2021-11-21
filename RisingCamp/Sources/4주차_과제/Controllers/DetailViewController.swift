@@ -9,8 +9,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    var selectIdx = Int()
-    var ingredientList = [Ingredient]()
+    
+    let selectIdx: Int
+    let ingredientInfo: Ingredient
     
     let firebase = FirebaseManager.shared
     
@@ -21,16 +22,16 @@ class DetailViewController: UIViewController {
     let storageList = ["냉장","냉동","실온"]
     
     var selectDate = Date()
-//
-//    init?(coder: NSCoder, selectIdx: Int, ingredientList: [Ingredient]) {
-//        self.selectIdx = selectIdx
-//        self.ingredientList = ingredientList
-//        super.init(coder: coder)
-//    }
-//
-//    required init?(coder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
+    
+    init?(coder: NSCoder, selectIdx: Int, selectIngredient: Ingredient) {
+            self.selectIdx = selectIdx
+            self.ingredientInfo = selectIngredient
+            super.init(coder: coder)
+        }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +42,7 @@ class DetailViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
     }
+    
     
     @IBOutlet weak var cntStepper: UIStepper!
     
@@ -98,22 +100,21 @@ class DetailViewController: UIViewController {
             return
         }
         indredientArr["expiryDate"] = ingredientExpiry
+        indredientArr["selected"] = 0
         
         //MARK: - 수정된 재료 정보 업데이트
         self.firebase.saveIngredient(IngName: ingredientName , indredientList: indredientArr)
         self.dismiss(animated: true, completion: nil)
     }
     
-    
-    
     func initData(){
-        ingredientImg.image = UIImage(named: ingredientList[0].name)
-        ingredientName.text = ingredientList[0].name
-        ingredientType.text = ingredientList[0].type
-        ingredientStorage.text = ingredientList[0].storage
-        ingredientCnt.text = String(ingredientList[0].cnt)
-        ingredientShelfLife.text = ingredientList[0].shelfLife
-        ingredientExpiryDate.text = ingredientList[0].expiryDate
+        ingredientImg.image = UIImage(named: ingredientInfo.name)
+        ingredientName.text = ingredientInfo.name
+        ingredientType.text = ingredientInfo.type
+        ingredientStorage.text = ingredientInfo.storage
+        ingredientCnt.text = String(ingredientInfo.cnt)
+        ingredientShelfLife.text = ingredientInfo.shelfLife
+        ingredientExpiryDate.text = ingredientInfo.expiryDate
         
     }
     

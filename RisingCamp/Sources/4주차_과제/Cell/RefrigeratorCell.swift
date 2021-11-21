@@ -12,4 +12,5 @@ class RefrigeratorCell: UITableViewCell {
     @IBOutlet weak var ingredientNameLb: UILabel!
     @IBOutlet weak var ingredientCntLb: UILabel!
     @IBOutlet weak var statusLb: UILabel!
+    
 }

@@ -40,7 +40,7 @@ class FirebaseManager {
                 completion(ingredientList)
                 
             }catch let error {
-                print("error --> \(error.localizedDescription)")
+                print("refrigerator error --> \(error.localizedDescription)")
             }
             
         }

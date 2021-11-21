@@ -17,17 +17,18 @@ extension RefrigeratorViewController: UITableViewDelegate, UITableViewDataSource
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "refrigeratorCell", for: indexPath) as? RefrigeratorCell else {
             return UITableViewCell()
         }
-        cell.ingredientNameLb.text = ingredientList[indexPath.row].name
-        cell.ingredientCntLb.text = String(ingredientList[indexPath.row].cnt)
-        cell.ingredientImg.image = UIImage(named: ingredientList[indexPath.row].name)
+        let target = ingredientList[indexPath.row]
+        
+        cell.ingredientNameLb.text = target.name
+        cell.ingredientCntLb.text = String(target.cnt)
+        cell.ingredientImg.image = UIImage(named: target.name)
         if selectSorted == 0 {
             cell.statusLb.text = ""
         }else if selectSorted == 1 {
-            cell.statusLb.text = ingredientList[indexPath.row].type
+            cell.statusLb.text = target.type
         } else {
-            cell.statusLb.text = ingredientList[indexPath.row].expiryDate
+            cell.statusLb.text = target.expiryDate
         }
-        
         return cell
     }
     
@@ -49,12 +50,7 @@ extension RefrigeratorViewController: UITableViewDelegate, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectIndex = indexPath.row
-        
-        let DetailVC = self.storyboard?.instantiateViewController(withIdentifier: "DetailSB") as! DetailViewController
-        DetailVC.modalPresentationStyle = .fullScreen
-        DetailVC.selectIdx = indexPath.row
-        DetailVC.ingredientList = [ingredientList[indexPath.row]]
-        self.present(DetailVC, animated: true, completion: nil)
+        performSegue(withIdentifier: "segueDetail", sender: nil)
         
     }
 }

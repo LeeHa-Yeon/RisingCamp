@@ -14,6 +14,7 @@ extension ShoppingBasketViewController: UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "basketCell", for: indexPath) as? BasketCell else {
             return UICollectionViewCell()
         }
@@ -36,7 +37,7 @@ extension ShoppingBasketViewController: UICollectionViewDelegate, UICollectionVi
         self.present(alert, animated: true, completion: nil)
         
     }
-   
+    
 }
 
 extension ShoppingBasketViewController: UICollectionViewDelegateFlowLayout{
@@ -45,7 +46,9 @@ extension ShoppingBasketViewController: UICollectionViewDelegateFlowLayout{
         let margin: CGFloat = 15
         let width: CGFloat = (self.view.bounds.width-(margin*2))/3
         let height: CGFloat = width
-        
+        //        let width = self.view.frame.width / 3
+        //        let height = width
+        //
         return CGSize(width: width, height: height)
     }
 }

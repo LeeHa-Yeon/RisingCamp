@@ -66,6 +66,7 @@ class AddIngredientViewController: UIViewController {
             return
         }
         indredientArr["shelfLife"] = ingredientShelf
+        indredientArr["selected"] = 0
         
         //MARK: - 새 재료를 파이어베이스에 등록
         firebase.loadExpiryDate(IngName: indredientArr["name"] as! String) { response in

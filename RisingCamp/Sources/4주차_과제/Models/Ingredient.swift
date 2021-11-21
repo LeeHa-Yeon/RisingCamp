@@ -15,6 +15,7 @@ struct Ingredient: Codable {
     let cnt: Int
     let shelfLife: String
     let expiryDate: String
+    let selected: Int
     
 }
 
@@ -34,6 +35,8 @@ class Refrigerator {
         
         return ingredientInfo
     }
+    
+    
     
 
 }

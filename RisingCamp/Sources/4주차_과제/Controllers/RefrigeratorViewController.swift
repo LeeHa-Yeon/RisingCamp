@@ -18,7 +18,6 @@ class RefrigeratorViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    
     @IBAction func nameSorted(_ sender: Any) {
         self.ingredientList = ingredientList.sorted(by: {$0.name < $1.name})
         selectSorted = 0
@@ -43,7 +42,7 @@ class RefrigeratorViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-
+        
         firebase.loadRefrigerator { response in
             self.ingredientList = response.sorted(by: {$0.name < $1.name})
             self.refrigertorManager.setIngredientInfo(response)
@@ -59,10 +58,22 @@ class RefrigeratorViewController: UIViewController {
         tableView.delegate = self
     }
     
-//    @IBSegueAction func DetailSA(_ coder: NSCoder, sender: Any?, segueIdentifier: String?) -> DetailViewController? {
-//        return DetailViewController(coder: coder, selectIdx: selectIndex, ingredientList: [ingredientList[selectIndex]])
-//    }
-//    
+    
+    
+    // ㅎㅎㅎ
+    @IBSegueAction func detailSA(_ coder: NSCoder, sender: Any?, segueIdentifier: String?) -> DetailViewController? {
+        return DetailViewController(coder: coder, selectIdx: selectIndex, selectIngredient: ingredientList[selectIndex])
+    }
+    //    @IBSegueAction func detailSA(_ coder: NSCoder, sender: Any?, segueIdentifier: String?) -> DetailViewController? {
+    //        return DetailViewController(coder: coder, selectIdx: selectIndex, selectIngredient: ingredientList[selectIndex])
+    //    }
+    //
+    
+    //    @IBSegueAction func DetailSA(_ coder: NSCoder, sender: Any?, segueIdentifier: String?) -> DetailViewController? {
+    //        return DetailViewController(coder: coder, selectIdx: selectIndex, ingredientList: [ingredientList[selectIndex]])
+    //    }
+    //
+    //
 }
 
 
