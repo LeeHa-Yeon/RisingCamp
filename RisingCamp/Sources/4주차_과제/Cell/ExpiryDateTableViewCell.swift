@@ -9,7 +9,6 @@ import UIKit
 
 class ExpiryDateTableViewCell: UITableViewCell {
     
-    
     @IBOutlet weak var ingredientImg: UIImageView!
     @IBOutlet weak var ingredientName: UILabel!
     @IBOutlet weak var statusLb: UILabel!
