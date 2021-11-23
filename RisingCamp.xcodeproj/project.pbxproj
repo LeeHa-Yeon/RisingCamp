@@ -45,6 +45,16 @@
 		9F8BB267274A4D1600B3007E /* SwitchSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BB266274A4D1600B3007E /* SwitchSB.storyboard */; };
 		9FA26B96273C8E3000D293AE /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA26B95273C8E3000D293AE /* AddMemoViewController.swift */; };
 		9FA26B98273CA12000D293AE /* DetailMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA26B97273CA12000D293AE /* DetailMemoViewController.swift */; };
+		9FB71424274CDE93003B72C6 /* ExhibitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB71423274CDE93003B72C6 /* ExhibitionViewController.swift */; };
+		9FB71426274CDEAA003B72C6 /* Exhibition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB71425274CDEAA003B72C6 /* Exhibition.storyboard */; };
+		9FB71428274CDEBE003B72C6 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB71427274CDEBE003B72C6 /* Setting.storyboard */; };
+		9FB7142A274CDFA4003B72C6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB71429274CDFA4003B72C6 /* SettingViewController.swift */; };
+		9FB7142D274CE651003B72C6 /* Setting + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7142C274CE651003B72C6 /* Setting + TableView.swift */; };
+		9FB7142F274CED86003B72C6 /* Loding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7142E274CED86003B72C6 /* Loding.storyboard */; };
+		9FB71431274CF020003B72C6 /* LodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB71430274CF020003B72C6 /* LodingViewController.swift */; };
+		9FB71434274CF7DB003B72C6 /* 84848-polar-bear.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FB71433274CF7DB003B72C6 /* 84848-polar-bear.json */; };
+		9FB71437274CFCF8003B72C6 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB71436274CFCF8003B72C6 /* SettingCell.swift */; };
+		9FB71439274D19A2003B72C6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB71438274D19A2003B72C6 /* APIManager.swift */; };
 		9FC38FF6272BCCED00948979 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FF5272BCCED00948979 /* TestViewController.swift */; };
 		9FC38FF8272BCD0300948979 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC38FF7272BCD0300948979 /* Test.storyboard */; };
 		9FC38FFA272BCE9500948979 /* TestSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */; };
@@ -111,6 +121,16 @@
 		9FA26B95273C8E3000D293AE /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
 		9FA26B97273CA12000D293AE /* DetailMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMemoViewController.swift; sourceTree = "<group>"; };
 		9FA26B9A273CA6E000D293AE /* Dongle-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dongle-Light.ttf"; path = "../../../../../../Downloads/Dongle-Light.ttf"; sourceTree = "<group>"; };
+		9FB71423274CDE93003B72C6 /* ExhibitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionViewController.swift; sourceTree = "<group>"; };
+		9FB71425274CDEAA003B72C6 /* Exhibition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exhibition.storyboard; sourceTree = "<group>"; };
+		9FB71427274CDEBE003B72C6 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		9FB71429274CDFA4003B72C6 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9FB7142C274CE651003B72C6 /* Setting + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Setting + TableView.swift"; sourceTree = "<group>"; };
+		9FB7142E274CED86003B72C6 /* Loding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Loding.storyboard; sourceTree = "<group>"; };
+		9FB71430274CF020003B72C6 /* LodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodingViewController.swift; sourceTree = "<group>"; };
+		9FB71433274CF7DB003B72C6 /* 84848-polar-bear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "84848-polar-bear.json"; sourceTree = "<group>"; };
+		9FB71436274CFCF8003B72C6 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		9FB71438274D19A2003B72C6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		9FC38FF5272BCCED00948979 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		9FC38FF7272BCD0300948979 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSecondViewController.swift; sourceTree = "<group>"; };
@@ -164,14 +184,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9F213B192737F052009F86BC /* 3주차_과제 */ = {
+		9F213B192737F052009F86BC /* 3주차_메모장 */ = {
 			isa = PBXGroup;
 			children = (
 				9F3D8139273A78D0006F268B /* Models */,
 				9F3D813A273A78D6006F268B /* Views */,
 				9F3D813B273A7904006F268B /* Controllers */,
 			);
-			name = "3주차_과제";
+			name = "3주차_메모장";
 			path = "3주차_과제";
 			sourceTree = "<group>";
 		};
@@ -197,13 +217,13 @@
 		9F3D8138273A78C6006F268B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9FB7141C274B9A9D003B72C6 /* 5주차_과제 */,
 				9F8BB263274A4BEC00B3007E /* 셀_재사용성_해결 */,
 				9F80A1852744E6D100B35510 /* 4주차_나의냉장고 */,
 				9F87922A2722ACEE00D8E707 /* 1주차_배민 */,
 				9F45A09427282787008D4D6E /* 2주차_여러프론트 */,
 				9FC38FF4272BCCD800948979 /* 3주차_수업 */,
-				9FC38FFB272D4ED200948979 /* 3주차_복습 */,
-				9F213B192737F052009F86BC /* 3주차_과제 */,
+				9F213B192737F052009F86BC /* 3주차_메모장 */,
 				9F82B8FF273E3D1900C00C60 /* 4주차_수업 */,
 			);
 			path = Sources;
@@ -419,9 +439,100 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		9FB7141C274B9A9D003B72C6 /* 5주차_과제 */ = {
+			isa = PBXGroup;
+			children = (
+				9FB71432274CF7DB003B72C6 /* JSONFile */,
+				9FB7141F274CD872003B72C6 /* Resources */,
+				9FB7141E274CD869003B72C6 /* Network */,
+				9FB7141D274CD4D6003B72C6 /* Sources */,
+			);
+			name = "5주차_과제";
+			path = "5주차_과제";
+			sourceTree = "<group>";
+		};
+		9FB7141D274CD4D6003B72C6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9FB71422274CD976003B72C6 /* Models */,
+				9FB71421274CD958003B72C6 /* Views */,
+				9FB71420274CD94B003B72C6 /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9FB7141E274CD869003B72C6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9FB71438274D19A2003B72C6 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9FB7141F274CD872003B72C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FB71435274CFCC3003B72C6 /* Cells */,
+				9FB7142B274CE5E9003B72C6 /* Extensions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9FB71420274CD94B003B72C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FB71430274CF020003B72C6 /* LodingViewController.swift */,
+				9FB71423274CDE93003B72C6 /* ExhibitionViewController.swift */,
+				9FB71429274CDFA4003B72C6 /* SettingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9FB71421274CD958003B72C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7142E274CED86003B72C6 /* Loding.storyboard */,
+				9FB71425274CDEAA003B72C6 /* Exhibition.storyboard */,
+				9FB71427274CDEBE003B72C6 /* Setting.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9FB71422274CD976003B72C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FB7142B274CE5E9003B72C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7142C274CE651003B72C6 /* Setting + TableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9FB71432274CF7DB003B72C6 /* JSONFile */ = {
+			isa = PBXGroup;
+			children = (
+				9FB71433274CF7DB003B72C6 /* 84848-polar-bear.json */,
+			);
+			path = JSONFile;
+			sourceTree = "<group>";
+		};
+		9FB71435274CFCC3003B72C6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9FB71436274CFCF8003B72C6 /* SettingCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		9FC38FF4272BCCD800948979 /* 3주차_수업 */ = {
 			isa = PBXGroup;
 			children = (
+				9FC38FFB272D4ED200948979 /* 3주차_복습 */,
 				9FC38FF5272BCCED00948979 /* TestViewController.swift */,
 				9FC38FF9272BCE9500948979 /* TestSecondViewController.swift */,
 				9FC38FF7272BCD0300948979 /* Test.storyboard */,
@@ -513,6 +624,7 @@
 			files = (
 				9F86AEE9271EE84500B3A6D5 /* LaunchScreen.storyboard in Resources */,
 				9F3D813F273A8260006F268B /* Memo.storyboard in Resources */,
+				9FB7142F274CED86003B72C6 /* Loding.storyboard in Resources */,
 				9F87922E2722AD7500D8E707 /* Woowahan.storyboard in Resources */,
 				9F45A09627286F3A008D4D6E /* AwesomeTest.storyboard in Resources */,
 				9FC39001272D4F0E00948979 /* LifeCycle.storyboard in Resources */,
@@ -520,9 +632,12 @@
 				9F86AEE6271EE84500B3A6D5 /* Assets.xcassets in Resources */,
 				9F82B903273E3D4600C00C60 /* RCTest.storyboard in Resources */,
 				9FF3F46527461195009FFE4C /* GoogleService-Info.plist in Resources */,
+				9FB71428274CDEBE003B72C6 /* Setting.storyboard in Resources */,
+				9FB71426274CDEAA003B72C6 /* Exhibition.storyboard in Resources */,
 				9F8BB267274A4D1600B3007E /* SwitchSB.storyboard in Resources */,
 				9F80A18A2744E82600B35510 /* Refrigerator.storyboard in Resources */,
 				9FC38FF8272BCD0300948979 /* Test.storyboard in Resources */,
+				9FB71434274CF7DB003B72C6 /* 84848-polar-bear.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +707,7 @@
 				9F82B910273E4DA800C00C60 /* ChangeLabel.swift in Sources */,
 				9F82B90B273E44F700C00C60 /* NameList.swift in Sources */,
 				9FF3F4752746924D009FFE4C /* Date + extension.swift in Sources */,
+				9FB71437274CFCF8003B72C6 /* SettingCell.swift in Sources */,
 				9F80A18C2744E84400B35510 /* RefrigeratorViewController.swift in Sources */,
 				9F82B912273E4E0000C00C60 /* RcTestViewController + TableView.swift in Sources */,
 				9FF3F46327460998009FFE4C /* FirebaseManager.swift in Sources */,
@@ -608,13 +724,18 @@
 				9F8792302722D44A00D8E707 /* SearchViewController.swift in Sources */,
 				9FA26B96273C8E3000D293AE /* AddMemoViewController.swift in Sources */,
 				9FF3F46927466629009FFE4C /* RefrigeratorViewController + TableView.swift in Sources */,
+				9FB71424274CDE93003B72C6 /* ExhibitionViewController.swift in Sources */,
 				9FF3F4772746A6B4009FFE4C /* BasketCell.swift in Sources */,
+				9FB71439274D19A2003B72C6 /* APIManager.swift in Sources */,
+				9FB7142A274CDFA4003B72C6 /* SettingViewController.swift in Sources */,
 				9F86AEDF271EE84300B3A6D5 /* SceneDelegate.swift in Sources */,
 				9F80FDA22745F00A0018928D /* ShoppingBasketViewController.swift in Sources */,
 				9FC38FFF272D4F0100948979 /* LifeCycleSecondViewController.swift in Sources */,
 				9F82B901273E3D3C00C00C60 /* RcTestViewController.swift in Sources */,
 				9F82B905273E3F9100C00C60 /* RcTestSecondViewController.swift in Sources */,
+				9FB71431274CF020003B72C6 /* LodingViewController.swift in Sources */,
 				9F82B908273E438D00C00C60 /* NameCell.swift in Sources */,
+				9FB7142D274CE651003B72C6 /* Setting + TableView.swift in Sources */,
 				9F80FDA82745F1950018928D /* ImminentViewController.swift in Sources */,
 				9FF3F46B27467E32009FFE4C /* AddIngredientViewController + PickView.swift in Sources */,
 				9F45A0982728708E008D4D6E /* FirstViewController.swift in Sources */,
