@@ -36,7 +36,7 @@ class LodingViewController: UIViewController {
     func playAnimationView(){
         self.animationView.play()
         self.animationView.loopMode = .loop
-        let time = DispatchTime.now() + .seconds(3)
+        let time = DispatchTime.now() + .seconds(1)
         DispatchQueue.main.asyncAfter(deadline: time) {
             let storyboard = UIStoryboard(name: "Exhibition", bundle: nil)
             let ExhibitionVC = storyboard.instantiateViewController(withIdentifier: "ExhibitionSB")
